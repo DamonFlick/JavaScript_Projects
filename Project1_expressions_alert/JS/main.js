@@ -22,3 +22,7 @@ function myFirstFunction() {  //Define function
     var result = str.fontcolor("green"); //Change font color
     document.getElementById("Green_Text").innerHTML = result; //Trun inner HTML to colored string 
 }
+
+function copyFunc() {
+    document.getElementById("demo").innerHTML = "You copied text!";
+}
