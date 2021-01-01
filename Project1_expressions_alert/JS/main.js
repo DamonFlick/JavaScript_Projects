@@ -26,3 +26,4 @@ function myFirstFunction() {  //Define function
 function copyFunc() {
     document.getElementById("demo").innerHTML = "You copied text!";
 }
+alert("Hello, World!")
