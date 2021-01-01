@@ -1,6 +1,6 @@
 
 
-function concat() {//Define Variables, assigne string values and change font color
+function concat() {//Define Variables, asign string values and change font color
     var A ="Hello, World!"; 
     var A = A.fontcolor("green");
     var B ="\"Oh my!\" said the frog. ";
@@ -10,9 +10,10 @@ function concat() {//Define Variables, assigne string values and change font col
 } //Print joined strings
 
 concat();
-//etc
+//etc Color change
 var blues= "I have the blues." , blues= blues.fontcolor("blue");
 document.write(blues);
+
 //Define a variable and give an expression value
 var expression = (3+3);
 document.write(expression); //Print expression
@@ -26,6 +27,7 @@ function myFirstFunction() {  //Define function
 
 
 function copyFunc() {
-    document.getElementById("demo").innerHTML = "You copied text!";
+    document.getElementById("demo").innerHTML = "You copied text!";//onCopy func
 }
-alert("Hello, World!")
+
+alert("Hello, World! Life is incredible!")// alert
