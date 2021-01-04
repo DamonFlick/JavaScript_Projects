@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sum Calculator</title>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+        <!--Addition-->
+        <div class="Calculator" id="sum">
+            <h1>Addition</h1>
+            <input id="addVal1" type="number" value="">
+            <div class="operator">
+                <p class=> + </p>
+            </div>
+            
+            <input id="addVal2" type="number" value=""> 
+        
+            <div class="operator">
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="addRes">Result</p>
+            </div>
+            <br>
+            <button onclick="addition()">Click here for some addition.</button>
+        </div>
+
+         <!--subtraction-->
+         <div class="Calculator" id="sub">
+            <h1>Subtraction</h1>
+            <input id="subVal1" type="number" value="">
+            <div class="operator">
+                <p class=> - </p>
+            </div>
+            <input id="subVal2" type="number" value=""> 
+            <div class="operator">
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="subRes">Result</p>
+            </div>
+            <br>
+            <button onclick="subtraction()">Click here for some subtraction.</button>          
+        </div>
+
+         <!--Multiplication-->
+         <div class="Calculator" id="mult">
+            <h1>Multiplication</h1>
+            <input id="mVal1" type="number" value="">
+            <div class="operator">
+                <p class=> * </p>
+            </div>
+            <input id="mVal2" type="number" value=""> 
+            <div class="operator">
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="mRes">Result</p>
+            </div>
+            <br>
+            <button onclick="multi()">Click here for some Multiplication.</button>          
+        </div>
+
+         <!--Division-->
+         <div class="Calculator" id="divi">
+            <h1>Division</h1>
+            <input id="dVal1" type="number" value="">
+            <div class="operator">
+                <p class=> / </p>
+            </div>
+            <input id="dVal2" type="number" value=""> 
+            <div class="operator">
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="dRes">Result</p>
+            </div>
+            <br>
+            <button onclick="divi()">Click here for some Division.</button>          
+        </div>
+
+         <!--Multiple Expressions-->
+         <div class="Calculator" id="exp">
+            <h1>Multiple Expressions</h1>
+            <p>num1 + num 1 times 123 <br>
+                 divided by 6 minus 2.</p>
+            <input id="eVal1" type="number" value="">
+            <div class="operator">
+                <p class=> (a+ b) * 123 / 6-2 </p>
+            </div>
+            <input id="eVal2" type="number" value=""> 
+            <div class="operator">
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="eRes">Result</p>
+            </div>
+            <br>
+            <button onclick="exp()">Click here for many things.</button>          
+        </div>
+
+          <!--Modulus Remainder-->
+        <div class="Calculator" id="remainder">
+            <h1>Remainder</h1>
+            <input id="rVal1" type="number" value="">
+            <div class="operator">
+                <p class=> % </p>
+            </div>
+            <input id="rVal2" type="number" value=""> 
+            <div class="operator">
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="rRes">Result</p>
+            </div>
+            <br>
+            <button onclick="remainder()">Click here for the Remainder.</button>          
+        </div>
+
+        <!-- Negation-->
+        <div class="Calculator" id="negation">
+            <h1>Negative</h1>
+            <input id="negVal1" type="number" value="">
+            <div class="operator">
+                <p class=> to negative </p>
+            </div>
+            <div>
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="negRes">Result</p>
+            </div>
+            <br>
+            <button onclick="toNeg()">Click here for a negative value.</button>          
+        </div>
+
+         <!--Increment-->
+        <div class="Calculator" id="inc">
+            <h1>Increment</h1>
+            <input id="incVal1" type="number" value="">
+            <div class="operator">
+                <p class=> ++ </p>
+            </div>
+            <div>
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="incRes">Result</p>
+            </div>
+            <br>
+            <button onclick="inc()">Click here to incriment Value.</button>          
+        </div>
+
+        <!--Decriment-->
+        <div class="Calculator" id="dec">
+            <h1>Decriment</h1>
+            <input id="decVal1" type="number" value="">
+            <div class="operator">
+                <p class=> -- </p>
+            </div>
+            <div>
+                <p class=> = </p>
+            </div>
+            <br>
+            <div class="display">
+                <p id="decRes">Result</p>
+            </div>
+            <br>
+            <button onclick="dec()">Click here to decriment Value.</button>          
+        </div>
+
+
+    </body>
+</html>

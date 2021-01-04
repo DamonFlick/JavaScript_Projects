@@ -1,0 +1,37 @@
+.display {
+    height: auto;
+    width:50px;
+    background-color: rgba(204, 231, 255, 0.967);
+    border: 1px solid rgba(0, 0, 0, 0.726);
+    margin:0 auto;
+    display:block;
+    padding: 3px;
+    text-align: right;
+    font-family: sans-serif;
+    position: relative;
+    border-radius: 8px;
+    
+}
+
+.Calculator {
+    display:inline-block;
+    position: relative;
+    height: auto;
+    min-width: 250px;
+    width: 25%;
+    max-width: 50%;
+    text-align: center;
+    background-color: rgb(118, 200, 202);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.57);    
+    margin: 5px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(100, 148, 237, 0.378);
+
+    
+}
+
+body {
+    background-color: rgba(185, 207, 223, 0.521);
+}
