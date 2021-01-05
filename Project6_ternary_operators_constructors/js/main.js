@@ -22,14 +22,14 @@ function myFunction ()  {
 function rideFunc() {
     var Height, Can_ride;
     Height = document.getElementById("Height").value;
-    Can_ride = (Height > 52) ? "You are too short":"You are tall enough";
+    Can_ride = (Height < 52) ? "You are too short":"You are tall enough";
     document.getElementById("ride").innerHTML = Can_ride + "to ride.";
 }
 
 function voteFunc() {
     var Age, Can_vote;
-    Height = document.getElementById("Age").value;
-    Can_vote = (Age > 18) ? "You're too young ":"You are old enough ";
+    Age = document.getElementById("Age").value;
+    Can_vote = (Age < 18) ? "You're too young ":"You are old enough ";
     document.getElementById("vote").innerHTML= Can_vote + "to vote.";
 }
 
