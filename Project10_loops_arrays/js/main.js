@@ -29,9 +29,9 @@ function arrayFunc() {
     Bird_pics[2] = "pooping";
     Bird_pics[3] = "screaming";
     let input = document.getElementById("bird_input").value  //Let KeyWord
-    input = input--
+    
     document.getElementById("bird_display").innerHTML = "In this picture, the bird is "
-        + Bird_pics[input];
+        + Bird_pics[input-1];
 }
 
 //Constant Function
