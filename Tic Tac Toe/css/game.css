@@ -1,0 +1,48 @@
+.center-container {
+    width: 608px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 8px 8px rgba(0, 34, 6, 0.624);
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+   
+    background-image: url("../media/tictactoe_background.png");
+    
+}
+
+td {
+    cursor: pointer;
+    border: 4px solid rgba(0, 35, 48, 0.919);
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+canvas {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    font-family: papyrus, Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 3px rgba(0, 34, 6, 0.624);
+    background-color: cadetblue;
+}
+
+h5 {
+    text-align: center;
+    text-decoration: none;
+    font-family: papyrus, Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(95, 160, 119);
+}
