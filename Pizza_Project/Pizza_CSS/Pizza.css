@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(126, 5, 5);
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Papyrus, Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: rgb(250, 227, 98);
+    box-shadow: 2px 2px 5px 5px rgba(70, 6, 6, 0.507);
+}
+#menuBG {
+    width: 75%;
+    height: 80%;
+    margin:10px auto;
+    background-color: rgb(255, 247, 142);
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+#frmMenu {
+    width: 90%;
+    background-color: rgb(118, 93, 41);
+    margin: 20px auto;
+   position: relative;
+   overflow: auto;
+   
+}
+
+
+
+.left {
+   
+    
+}
+
+.right {
+    
+}
+
+.center {
+   
+}
+
+.menu {
+    background-color: khaki;
+    width:max-content;
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    margin: 10px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    overflow: auto;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.275);
+
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: left;
+    background-color: rgba(158, 119, 119, 0.371);
+}
+#showText h3 {
+    font-family: papyrus, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+    color: lemonchiffon;
+    background-image: url("../images/Pizza_Recipt_BG.png");
+    background-color: rgb(7, 7, 4);
+    font-size: 2rem;
+}
+
+#cart {
+
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+}
+
+#btnOrder {
+    margin:  10px 0 0 10px auto;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-image: url("../images/pizza.png");
+    box-shadow: inset 2px 2px 5px 5px rgba(0, 0, 0, 0.111);
+    background-color: transparent;
+    color: rgb(253, 197, 56);
+    font-weight: bold;
+    text-shadow: 1px 1.5px rgb(73, 42, 0);
+    border-radius: 7px;
+}
