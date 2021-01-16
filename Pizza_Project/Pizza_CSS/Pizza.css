@@ -65,6 +65,7 @@ h1 {
     margin: 20px auto;
     float: left;
     background-color: rgba(158, 119, 119, 0.371);
+    overflow: auto;
 }
 #showText h3 {
     font-family: papyrus, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
